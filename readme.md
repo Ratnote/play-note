@@ -2,7 +2,7 @@
 
 The project allows users to share youtube playlists. 
 
-This project mainly contains of these functions:
+This project mainly contains these functions:
 
 -User registration
 -User login
