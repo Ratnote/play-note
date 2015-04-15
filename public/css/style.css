@@ -1,0 +1,845 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+body
+{ 
+background: url(musiccc.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.succ-upload
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.nav-top
+{
+	min-height: 50px;
+	background-color: white;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+.top-navigation-depression
+{
+	color: black;
+	border-bottom: #052601 solid 4px;
+	font-family: 'Oswald', sans-serif;
+}
+.top-navigation-depression:hover
+{
+	color: white;
+	background-color: #052601!important;
+}
+.top-navigation-suit
+{
+	color: black;
+	border-bottom: #DBE386 solid 4px;
+	font-family: 'Oswald', sans-serif;
+}
+.top-navigation-suit:hover
+{
+	color: white;
+	background-color: #DBE386!important;
+}
+.top-navigation-news
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #565391 solid 4px;
+}
+.top-navigation-news:hover
+{
+	color:white;
+	background-color: #565391!important;
+}
+.top-navigation-music
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #E8D58B solid 4px;
+}
+.top-navigation-music:hover
+{	
+	color:white;
+	background-color: #E8D58B!important;
+}
+.top-navigation-interviews
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #FF5454 solid 4px;
+}
+.top-navigation-interviews:hover
+{
+	background-color: #FF5454!important;
+	color:white!important;
+}
+.top-navigation-hot-playlists
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #7ECFA6 solid 4px;
+}
+.top-navigation-hot-playlists:hover
+{
+	font-family: 'Oswald', sans-serif;
+	background-color: #7ECFA6!important;
+	color:white!important;
+}
+.top-navigation-login
+{
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	background-color: #FF9D14!important;
+	border-bottom: #FF9D14 solid 4px;
+	display: inline;
+}
+.top-navigation-login:hover
+{
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	background-color: #FF9D14!important;
+	border-bottom: #FF9D14 solid 4px;
+}
+.top-navigation-register
+{
+	background-color: #7ECFA6!important;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #7ECFA6 solid 4px;
+	display: inline;
+}
+.top-navigation-register:hover
+{
+	font-family: 'Oswald', sans-serif;
+	color:white;
+	background-color: #7ECFA6!important;
+}
+.top-navigation-upload 
+{
+	background-color: #FF4036!important;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #FF4036 solid 4px;
+	display: inline;
+}
+.top-navigation-upload:hover
+{
+	background-color: #FF4036!important;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+}
+.top-navigation-profile
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #59B051 solid 4px;
+	display: inline;
+}
+.top-navigation-profile:hover
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	background-color: white;
+}
+
+.top-navigation-logout
+{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+	border-bottom: #525359 solid 4px;
+}
+.top-navigation-logout:hover
+{	
+	background-color: white;
+	color:black;
+	font-family: 'Oswald', sans-serif;
+}
+.space 
+{
+	height: 80px;
+}
+.recent-posts
+{
+	margin-top: 20px;
+	min-height: 130px;
+	background-color: white;
+	margin-left: 0;
+	margin-right: 0;
+	box-shadow: 2px 2px 2px 2px #888888;
+	text-align: center;
+}
+.small-post
+{
+	margin-right: 15px;
+	margin-top: 20px;
+	min-height: 200px;
+	margin-bottom: 20px;
+	padding: 0;
+	box-shadow: 2px 2px 2px 2px #888888;
+	background-color:white;
+}
+.hip-note
+{
+	font-family: 'Oswald', sans-serif;
+	color:black!important;
+	font-size: 35px;
+	display: inline;
+	margin-right: 20px;
+}
+.facebook-table
+{
+	margin-top: 20px;
+	min-height: 300px;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+.footer
+{
+	color:white;
+	background-color: black;
+	height: 80px;
+	margin-top: 50px;
+	text-align: center;
+}
+.container
+{
+	width: 1190px !important;
+}
+.no-padding
+{
+	padding: 0;
+}
+.wrapper
+{
+	margin-top: 20px;
+	min-height: 50px;
+	padding: 0;
+}
+.post-image
+{
+	text-align: center;
+	margin: 0;
+	width: 100%;
+	height:250px; 
+}
+.playlist-name
+{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400px;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+	margin: 0;
+	color:black!important;
+}
+.tag 
+{
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	background-color: #FF4036;
+	padding: 5px;
+	display: inline;
+	color: white;
+	opacity: 0,5;
+}
+.tags
+{
+	text-align: center;
+}
+.desc
+{
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	font-size: 15px;
+	padding: 10px;
+	margin: 0;
+	color:black!important;
+}
+.recent-post-name
+{	
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0;
+	color:black!important;
+}
+.recent-posts-topic
+{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 20px;
+	padding: 3px;
+	margin: 0;
+	background-color: #FF4036;
+	margin-top: 5px;
+	color:white;
+}
+.subsribe
+{
+	margin-top: 20px;
+	min-height: 100px;
+	background-color: white;
+	margin-left: 0;
+	margin-right: 0;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+.element 
+{
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.recent-post-name:hover 
+{
+	color:#D92E2E!important;
+	cursor: pointer;
+}
+.playlist-name:hover
+{
+	color:#D92E2E!important;
+	cursor: pointer;
+}
+.search
+{
+	border: solid black 3px;
+}
+.type 
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	margin-top: 15px;
+	display: inline;
+	float: left;
+	background-color: #FF4036;
+	padding: 5px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	color:white;
+}
+.readmore
+{
+	margin-top: 25px;
+	margin-right: 20px;
+	display: inline;
+	float: right;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+
+}
+.readmore:hover
+{
+	cursor:pointer;
+
+}
+.complete-field
+{
+	min-height: 500px;
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+.upload-playlist-wrapper
+{
+	min-height: 600px;
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+.register-form
+{
+	width: 400px;
+	margin-left: 300px;
+}
+.form-input-group
+{
+	width: 200px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	display: block;
+}
+.form-label
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	display: inline;
+}
+.buttons
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.form-header
+{
+	text-align: center;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+	margin-top: 20px;
+}
+.error
+{
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+	font: italic;
+	color: red;
+}
+.checkbox-label
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+.login-wrapper
+{
+	box-shadow: 2px 2px 2px 2px #888888;
+	background-color: white;
+	min-height: 350px;
+	margin-top: 20px;
+}
+.hello
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+}
+.tabb
+{
+	margin-left: 30px;
+}
+.submit-button
+{
+	margin-bottom: 30px;
+}
+.playlist-frame
+{
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+.post-header
+{
+	text-align: center;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 38px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color:black;
+}
+.post-body
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.date
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+.author
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 20px;
+	color: #BA9BF2;
+}
+.my-profile-playlists
+{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+table.test td {
+    margin: 20px;
+    padding: 15px;
+}
+table.test {
+    border-collapse: separate;
+    border-spacing: 50px;
+    *border-collapse: expression('separate', cellSpacing = '10px');
+}
+.table-headers
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+.user-playlists
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: black;
+}
+.description-wrapper-comment
+{
+	min-height: 50px;
+	box-shadow: 2px 2px 2px 2px #888888;
+	background-color: white;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.description-wrapper
+{
+	min-height: 50px;
+	box-shadow: 2px 2px 2px 2px #888888;
+	background-color: white;
+	margin-top: 20px;
+}
+.image-upload
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	color: blue;
+}
+
+.user
+{
+	background-color: #F2F2F2;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline;
+	padding-bottom: 3px;
+
+}
+.post-wrapper
+{
+	min-height: 100px;
+	box-shadow: 2px 2px 2px 2px #888888;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	vertical-align: middle;
+}
+.post-comment-input
+{
+	width: 700px;
+	height: 35px;
+	border: 1px solid black;
+	font-family: 'Oswald', sans-serif;
+	font-size: 13px;
+	text-align: center;
+	margin-bottom: 5px;
+	display: inline;
+	margin-bottom: 20px!important;
+}
+.post-comment-input:focus
+{
+	border: 1px solid black;
+	box-shadow:none;
+}
+.comment-form
+{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.warning
+{
+	font-size: 20px;
+	color: #8A8257;
+}
+.user-comment
+{
+	margin-bottom: 3px;
+}
+.form-icon
+{
+	display: inline;
+	margin-right: 20px;
+}
+.favorite-playlists
+{
+	width: 400px;
+	text-align: center!important;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	color: black;
+	display: inline;
+}
+.favorite-playlists >span 
+{
+	padding: 5px;
+	border-radius: 5px;
+}
+.idk
+{
+	width: 400px;
+	margin-left: 50px;
+	text-align: center;
+	display: inline;
+}
+.space
+{
+	height: 50px; 
+}
+.remove-button
+{
+	background:none!important;
+	outline:0;
+	border: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.onhover
+{
+	position: relative;
+}
+span.text-content {
+  background: rgba(0,0,0,7);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+span.text-content span {
+  display: table-cell;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+
+  vertical-align: middle;
+  text-align: center;
+  border: solid 2px black;
+}
+span.text-content {
+  background: rgba(0,0,0,7);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+.onhover:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.7);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  margin-top: 55px;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+
+
+
+.button {        
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #ccc;
+    background-image: linear-gradient(top, #eee, #ccc);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#cccccc');
+    border: 1px solid #777;
+    padding: 0 1.5em;
+    margin: 0.5em;
+    font: bold 1em/2em Arial, Helvetica;
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0 1px 0 rgba(255,255,255,.8);
+    border-radius: .2em;
+    box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
+}
+
+.button:hover {
+    background-color: #ddd;        
+    background-image: linear-gradient(top, #fafafa, #ddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+}
+
+.button:active {
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
+    position: relative;
+    top: 1px;
+}
+
+.button:focus {
+    outline: 0;
+    background: #fafafa;
+}    
+
+.button:before {
+    background: #ccc;
+    background: rgba(0,0,0,.1);
+    float: left;        
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;        
+}
+
+/* Hexadecimal entities for the icons */
+
+.add:before {
+    content: "\271A";
+}
+
+.edit:before {
+    content: "\270E";        
+}
+
+.delete:before {
+    content: "\2718";        
+}
+
+.save:before {
+    content: "\2714";        
+}
+
+.email:before {
+    content: "\2709";        
+}
+
+.like:before {
+    content: "\2764";        
+}
+
+.next:before {
+    content: "\279C";
+}
+
+.star:before {
+    content: "\2605";
+}
+
+.spark:before {
+    content: "\2737";
+}
+
+.play:before {
+    content: "\25B6";
+}
+.ammount
+{
+	margin: 5px;
+	font-family: 'Oswald', sans-serif;
+}
+.ammount >span
+{
+	background-color: #E6E6E6;
+	padding: 5px;
+}
+.recent-post-elem
+{
+	margin-top: 25px;
+	font-size: 20px;
+	display: inline;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: black!important;
+}
+.timestamp
+{
+	font-family: 'Oswald', sans-serif;
+	display: inline;
+	font-size: 11px;
+	color: black;
+}
+.sub-title
+{
+	font-size: 13px;
+	color: #BABABA;
+}
+.post-buttons
+{
+	display: inline-block;
+}
+.playlists-error
+{
+	text-align: center;
+	margin-bottom: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #8A8257;
+}
+.topas 
+{
+	height: 100px!important;
+}
+.bundymas
+{
+	margin: 10px;
+	width: 400px;
+	display: inline;
+	margin-left: 20px;
+}
+.login-errors
+{
+	text-align: center;
+	margin-bottom: 10px;
+	color: red;
+}
+.admin-section
+{
+	width: 100px;
+	display: inline;
+}
+.admin-image
+{
+	width: 100px!important;
+	height: 100px!important;
+}
+.succ-upload
+{
+	text-align: center;
+	color: green;
+}
+
